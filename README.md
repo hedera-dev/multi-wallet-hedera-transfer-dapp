@@ -1,4 +1,4 @@
-Hedera Token Transfer DApp using Create React App Hedera DApp template which utilizes Material UI and Typescript with HashPack, Blade, and MetaMask wallet support.
+Transfer Hedera tokens with ease using this DApp built on the Create React App Hedera DApp template. It leverages Material UI and Typescript, providing support for HashPack, Blade, and MetaMask wallets.
 
 ## Prerequisites
 
