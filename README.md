@@ -1,9 +1,9 @@
-# Hedera DApp with MetaMask, HashPack, and Blade Integration
-Transfer Hedera tokens with ease using this DApp built on the Create React App Hedera DApp template. It leverages Material UI and Typescript, providing support for HashPack, Blade, and MetaMask wallets.
+# Hedera DApp Integrated with WalletConnect
+Explore DApp development using the Mirror Node API and Hedera Token Service (HTS). Discover how to integrate HTS functionality into your DApp for seamless token management and transactions. This guide uses React, Material UI, Ethers, and TypeScript with the [Create React App (CRA) Hedera DApp template](https://github.com/hedera-dev/cra-hedera-dapp-template) integrated with walletconnect, streamlining your development process.
 
 ## Tutorial
 This repo is intended to be used alongside the tutorial:
-[Develop a Hedera DApp with MetaMask, HashPack, and Blade Integration]( https://hedera.com/blog/develop-a-hedera-dapp-with-metamask-hashpack-and-blade-integration)
+[Create a Hedera DApp Integrated with WalletConnect](https://docs.hedera.com/hedera/tutorials/more-tutorials/develop-a-hedera-dapp-integrated-with-walletconnect)
 
 To follow along, start with the `main` branch,
 which is the default branch of this repo.
@@ -27,28 +27,28 @@ git checkout completed
 1. Execute ```npm i```
 2. Execute ```npm run start``` to start the project
 
-> Blade requires the use of HTTPS in order to pair wallets. An `.env` file exists in your root directory with `HTTPS=true` in order to connect to blade.
-
 ## Prerequisites
 
 ### Hedera Testnet account
 
-Don't have one? Create one by going to [portal.hedera.com](https://portal.hedera.com/register). This testnet account will recieve 10,000 test HBAR every 24 hours!
+Don't have one? Create one by going to [portal.hedera.com](https://portal.hedera.com/register). The daily limit is 1000 test HBAR and users will be able to request for a refill every 24 hours!
 
 ### Hashpack Wallet
 * Install the [Hashpack extension](https://chrome.google.com/webstore/detail/hashpack/gjagmgiddbbciopjhllkdnddhcglnemk).  
-* Import a Hedera ED25519 testnet account into Hashpack.
 
 ### Blade Wallet
 * Install the [Blade extension](https://chrome.google.com/webstore/detail/blade-%E2%80%93-hedera-web3-digit/abogmiocnneedmmepnohnhlijcjpcifd).  
-* Import a Hedera ED25519 testnet account into Blade.
 
 ### Metamask Wallet
-* Install the [MetaMask extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn).  
+* Install the [MetaMask extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn).
+* Import a Hedera ECDSA based testnet account into MetaMask.  
+
+### Kabila Wallet
+* Install the [Kabila extension](https://www.kabila.app/wallet).
 
 #### How to activate your account on Hedera Testnet
 
-* Activate it by transferring any amount of test HBAR to your EVM address
+* Activate it by transferring any 100 test HBAR to your EVM address using our faucet at https://portal.hedera.com/faucet
 
 -----
 
