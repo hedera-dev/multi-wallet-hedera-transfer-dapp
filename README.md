@@ -31,7 +31,7 @@ git checkout completed
 
 ### Hedera Testnet account
 
-Don't have one? Create one by going to [portal.hedera.com](https://portal.hedera.com/register). The daily limit is 1000 test HBAR and users will be able to request for a refill every 24 hours!
+Don't have one? Create one by going to the [Hedera Portal](https://hubs.ly/Q03YhtWx0). The daily limit is 1000 test HBAR and users will be able to request for a refill every 24 hours!
 
 ### Hashpack Wallet
 * Install the [Hashpack extension](https://chrome.google.com/webstore/detail/hashpack/gjagmgiddbbciopjhllkdnddhcglnemk).  
@@ -48,7 +48,7 @@ Don't have one? Create one by going to [portal.hedera.com](https://portal.hedera
 
 #### How to activate your account on Hedera Testnet
 
-* Activate it by transferring any 100 test HBAR to your EVM address using our faucet at https://portal.hedera.com/faucet
+* Activate it by transferring any 100 test HBAR to your EVM address using our [faucet](https://hubs.ly/Q03YhtWl0)
 
 -----
 
